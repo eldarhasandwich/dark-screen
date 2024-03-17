@@ -26,11 +26,11 @@
 }
 
 .wave {
-    background: rgb(255 255 255 / 2%);
+    background: rgb(400 255 255 / 2%);
     border-radius: 1000% 1000% 0 0;
     position: fixed;
     width: 200%;
-    height: 12em;
+    height: 30vh;
     animation: wave 10s -3s linear infinite;
     transform: translate3d(0, 0, 0);
     opacity: 0.8;
