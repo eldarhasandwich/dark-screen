@@ -8,7 +8,6 @@ const WavyLines: React.FC = () => {
         <div    
             className="body"
             style={{
-                // backgroundColor: 'blue',
                 width: '100vw',
                 height: '100vh',
                 position: 'absolute',
@@ -16,6 +15,8 @@ const WavyLines: React.FC = () => {
             }}
         >
 
+            <div className="wave"></div>
+            <div className="wave"></div>
             <div className="wave"></div>
             <div className="wave"></div>
             <div className="wave"></div>

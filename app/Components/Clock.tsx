@@ -30,13 +30,22 @@ function Clock() {
     return (
         <div style={{
             color: 'white',
-            fontFamily: '"Hedvig", sans-serif',
-            fontWeight: '200',
+            fontFamily: '"Ojuju", monospace',
+            fontOpticalSizing: 'auto',
+            fontStyle: 'normal',
             margin: '5vh'
         }} >
             <h1 style={{
+                fontSize: '3vh',
+                margin:'0px',
+                fontWeight: '400'
+            }}>
+                {currentTime.toDateString()}
+            </h1>
+            <h1 style={{
                 fontSize: '10vh',
-                margin: '0px'
+                margin: '0px',
+                fontWeight: '200'
             }}>
                 {get24HrTime(currentTime)}
             </h1>
