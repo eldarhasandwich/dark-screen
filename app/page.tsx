@@ -1,3 +1,6 @@
+'use client'
+
+import Clock from "./Components/Clock";
 
 export default function Home() {
   return (
@@ -6,7 +9,7 @@ export default function Home() {
       }}
     >
 
-      empty
+      <Clock/>
 
     </main>
   );

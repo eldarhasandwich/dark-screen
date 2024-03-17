@@ -1,7 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dark Screen",
@@ -17,7 +14,12 @@ export default function RootLayout({
     <html lang="en" style={{
       background:'black'
     }}>
-      {children}
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700;800;900&family=Gruppo&display=swap')
+      </style>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
