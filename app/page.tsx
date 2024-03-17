@@ -18,7 +18,7 @@ export default function Home() {
                 <Clock />
             </div>
 
-            <WavyLines />
+            {/* <WavyLines /> */}
 
         </div>
     );
