@@ -6,10 +6,17 @@ export default function Home() {
   return (
     <main
       style={{
+        display: 'flex',
+        height: '100vh'
       }}
     >
 
-      <Clock/>
+      <div style={{
+        display: 'flex',
+        alignItems: 'flex-end'
+      }}>
+        <Clock/>
+      </div>
 
     </main>
   );

@@ -1,4 +1,3 @@
-//  CHATGPT THIS LETSGOOOOOOO
 'use client'
 
 import React, { useState, useEffect } from 'react';
@@ -35,7 +34,7 @@ function Clock() {
             margin: '3%'
         }} >
             <h1 style={{
-                fontSize: '8em',
+                fontSize: '14vh',
                 margin: '0px'
             }}>
                 {get24HrTime(currentTime)}
