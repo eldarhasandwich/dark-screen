@@ -29,12 +29,13 @@ function Clock() {
 
     return (
         <div style={{
-            color: 'grey',
-            fontFamily: '"Gruppo", sans-serif',
-            margin: '3%'
+            color: 'white',
+            fontFamily: '"Hedvig", sans-serif',
+            fontWeight: '200',
+            margin: '5vh'
         }} >
             <h1 style={{
-                fontSize: '14vh',
+                fontSize: '10vh',
                 margin: '0px'
             }}>
                 {get24HrTime(currentTime)}
