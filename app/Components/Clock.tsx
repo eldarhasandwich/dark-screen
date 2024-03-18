@@ -33,7 +33,8 @@ function Clock() {
             fontFamily: '"Ojuju", monospace',
             fontOpticalSizing: 'auto',
             fontStyle: 'normal',
-            margin: '5vh'
+            margin: '5vh',
+            zIndex: '100'
         }} >
             <h1 style={{
                 fontSize: '3vh',
